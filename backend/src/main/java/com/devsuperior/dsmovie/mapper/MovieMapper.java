@@ -19,7 +19,7 @@ public class MovieMapper {
     }
 
     public static Movie map(MovieDTO dto) {
-        if(dto == null)
+        if (dto == null)
             return null;
 
         var entity = new Movie();

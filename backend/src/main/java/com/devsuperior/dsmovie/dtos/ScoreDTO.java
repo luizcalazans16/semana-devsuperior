@@ -6,19 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Builder
-@Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class MovieDTO {
+@AllArgsConstructor
+@Data
+public class ScoreDTO {
 
-    private Long id;
+    private Long movieId;
 
-    private String title;
+    private String email;
 
     private Double score;
-
-    private Integer count;
-
-    private String image;
-
 }
